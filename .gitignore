@@ -34,3 +34,18 @@ site/
 .vscode/
 .idea/
 GitSink.bat
+/SmartSnap.pyw
+
+# Additional transient/test output
+.cache/
+test-results/
+playwright-report/
+*.log
+
+# Backup files
+*.bak
+*.bak_*
+*.bak-*
+*.backup
+*.backup-*
+*.orig

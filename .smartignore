@@ -1,0 +1,7 @@
+# Kristal Farms snapshot-only exclusions.
+#
+# archive/ is intentionally retained in Git for history/provenance (matching
+# the repository's .ignore policy), but is not part of the active source snapshot.
+
+archive/
+SMARTDUMP_INDEX.txt
