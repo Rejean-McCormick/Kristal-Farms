@@ -4,7 +4,7 @@
 
 Kristal Farms is a northern hydro/renewable resource-access architecture. Its central inversion is:
 
-> **bring flexible compute to remote energy and export digital value by fibre, rather than defaulting to long roads and long high-voltage electrical export corridors.**
+> **bring flexible compute to remote energy, protect essential community demand, and export value as portable Kristals or fibre-connected services, rather than defaulting to long road/HV corridors.**
 
 Avoiding or materially reducing long roads and HV corridors is a primary structural value proposition because it may open remote hydro resources that are unattractive under the conventional delivery model. The economic advantage is **not assumed universal**; it must be demonstrated per corridor/site.
 
@@ -31,7 +31,7 @@ Kristal Farms can provide leaseable serviced compute sites/pads rather than owni
 
 Existing village grids are protected community infrastructure, not assumed multi-megawatt compute supplies. The architecture under research is primarily:
 
-> **new generation → protected community interface → flexible compute → fibre export**
+> **local renewable generation → protected community priority → interruptible compute → portable Kristals or connected fibre export as needed**
 
 Community/critical loads have priority over interruptible compute.
 
@@ -66,3 +66,11 @@ Capital may finance infrastructure, but capital should not automatically acquire
 ## Current screening rule
 
 There is **no active site rank**. Future prioritization requires transparent evidence across hydrology, terrain/head, environment, Indigenous/community governance, logistics, telecom, electrical architecture and current economics.
+
+## Proposed Kristal Wink and offline-first profile (2026-10-12)
+
+A **Kristal Wink** may start as one wind turbine with energy-responsive, checkpointable local AI processing, durable Kristal storage and a small protected reserve for safe operations. High-capacity fibre is **not a universal launch dependency** for deferred Kristal production; secure intermittent links and physical deliveries may suffice for appropriate clients. Connected/low-latency tenants continue to need substantiated fibre services. Storage/servers/batteries inside the turbine tower remain engineering options only, with an adjacent service enclosure as an alternative.
+
+The community's essential demand takes priority especially during severe cold; safety-critical electrical control must be independent of generative orchestration. No single turbine or small reserve guarantees village firm power. The proposed founders' assembly plus collective local governance must be defined under real rights, consent, law and anti-capture safeguards. Profitability before fibre remains to be measured, not assumed.
+
+See [Wink architecture (FR)](KRISTAL_WINK_ARCHITECTURE_FR.md), [Offline Kristals (FR)](KRISTALS_OFFLINE_ET_PROCEDURES_FR.md) and [Collective governance (FR)](../00-control/KRISTAL_GOUVERNANCE_COLLECTIVE_FR.md).

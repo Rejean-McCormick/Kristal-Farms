@@ -5,7 +5,7 @@
 
 ## 1. Bring the load to the energy
 
-Kristal Farms studies whether flexible compute can be located close to remote renewable generation so that digital value moves by fibre instead of requiring every unit of electricity to travel through long new road and high-voltage export corridors.
+Kristal Farms studies whether flexible compute can be located close to remote renewable generation so that digital value is exported as portable, deferred Kristals or through fibre-connected services instead of requiring every unit of electricity to travel through long new road and high-voltage export corridors.
 
 This inversion is the core project thesis.
 
@@ -14,7 +14,7 @@ This inversion is the core project thesis.
 The structural value proposition is not merely cheap electricity. Some northern hydro resources are difficult to develop because their delivery infrastructure can dominate project complexity. Kristal Farms therefore compares the full enabling infrastructure required by two architectures:
 
 - remote generation → long road/HV export → distant load;
-- remote generation → local flexible compute → fibre export.
+- remote generation → local flexible compute → **portable Kristals or fibre-connected export**, according to workload.
 
 The second architecture is not assumed to win universally. It must be tested corridor by corridor.
 
@@ -30,9 +30,9 @@ A multi-megawatt Kristal Farms node requires its own sourced generation and elec
 
 Compute may be generation-side, community/port-side or split. The choice is determined by site evidence: electrical distance, fibre, logistics, maintenance, environment, security, heat value and community preference.
 
-## 6. Fibre is the primary digital-value corridor
+## 6. Fibre is workload-dependent, not a universal prerequisite
 
-Fibre route, capacity, redundancy, landing, provider, repair model and SLA are project evidence requirements. A conceptual line on a map is not a confirmed route.
+A fibre route, capacity, redundancy, landing, provider, repair model and SLA are mandatory evidence **when the workload depends on continuous connectivity**. Deferred offline-first Kristal production may work with opportunistic digital or authenticated, encrypted physical delivery; transfer capacity, provenance, security and client freshness needs still require evidence. A conceptual line on a map is not a confirmed route.
 
 ## 7. Heat is optional value
 
@@ -60,7 +60,7 @@ The pilot proves architecture and operating methods; it does not need to prove e
 
 ## 12. Long-term network logic
 
-If individual nodes prove viable, they may form a chain of hydro/compute/fibre/port nodes across northern Québec and Labrador, with marine logistics and fibre as primary corridors and shorter electrical interties where they improve resilience.
+If individual nodes prove viable, they may form a constellation of stand-alone or interconnected wind/hydro/compute nodes across northern Québec and Labrador, sharing secure Kristal deliveries, marine/air logistics, fibre where needed and shorter electrical interties where useful.
 
 ## 13. International tenancy is selective, not indiscriminate
 
@@ -80,9 +80,9 @@ Kristal Farms may reuse mine or brownfield infrastructure when reuse reduces tot
 
 This principle does not make mining assets a siting requirement. Recent underground mines may be especially relevant to preserved industrial infrastructure; historical open pits remain eligible for pumped-storage research because reservoir suitability depends primarily on geometry and site condition rather than closure date.
 
-## 16. Generate locally, consume locally, ship equipment by sea, export value by fibre
+## 16. Generate locally, consume locally, export according to product needs
 
-The primary site doctrine is new renewable generation consumed near the generating asset, with practical marine access and high-capacity telecom. Existing dams are not the commercial resource thesis; existing supply may support construction where appropriate. Candidate ensembles should prefer comparatively low ecological sensitivity, but that phrase is a screening objective, not a substitute for biodiversity, rights/governance or environmental assessment.
+The earlier connected-tenant site doctrine is new renewable generation consumed near the generating asset, with practical marine access and high-capacity telecom. The new offline-first Wink profile can test a wind-only starting cell without continuous high-capacity fibre, subject to secure delivery, maintenance and viable market requirements. Existing dams are not the commercial resource thesis; existing supply may support construction where appropriate. Candidate ensembles should prefer comparatively low ecological sensitivity, but that phrase is a screening objective, not a substitute for biodiversity, rights/governance or environmental assessment.
 
 ## 17. International diversification is a resilience layer, not a defence guarantee
 
@@ -93,3 +93,23 @@ This must not be represented as collective defence, extraterritoriality or an au
 ## 18. Validate international demand before assigning countries to sites
 
 A 12-ensemble portfolio may be used as a planning frame, but named organizations remain research prospects until direct evidence exists. The preferred sequence is requirements exchange → non-binding interest → site/workload matching → contracting. Do not fabricate a twelfth partner or force a prospect onto a site merely to complete a matrix.
+
+## 19. Kristal Wink: one wind turbine may be a starting cell
+
+A proposed Wink can combine local wind generation, checkpointable AI compute, durable Kristal storage, a limited reserve for safe shutdown/control and local access. Other Winks and central connectivity are optional for deferred local work. Tower-integrated electronics/batteries are optional, pending engineering, manufacturer and safety acceptance; a ground-adjacent enclosure is an alternative.
+
+## 20. Compute follows the wind and hibernates before community hardship
+
+Reduce compute when wind or safely available energy falls; suspend noncritical processing during high-priority community demand (including extreme cold). Electrical protection and essential-load shedding must be independent from the IA orchestrator. A wind-only cell cannot be represented as firm, continuous village energy.
+
+## 21. Crystallize durable intelligence, with validated operational pathways
+
+Kristals may evolve from structured knowledge into verified, versioned operational processes, runnable locally without recomputing every reasoning step. Differentiate facts, inferences, proof, uncertainty, authorizations and execution limits. Offline multimodal inputs and accent-aware voice are directions to test; emotional inference from voice must be opt-in, local/ephemeral by default and never treated as direct fact or a diagnosis.
+
+## 22. Collective governance with separate local authority
+
+A common constitutional framework may be defined through an Assemblée des fondateurs and collective local governance to prevent wealth capture. Charter, participation, rights-holder consent, asset ownership, benefit-sharing, independent remedy and checks against capture **of the assembly itself** remain to be specified. Founders cannot unilaterally displace Indigenous/community authority or existing law.
+
+## 23. Profitability before high-capacity fibre is a hypothesis
+
+Sales of portable Kristals could finance energy, connectivity and other local benefits, but demand, quality, delivery, cost and revenue-sharing must be demonstrated. Preserve the old fibre-intensive economic scenarios as their own scenario, not as proof for Wink economics.

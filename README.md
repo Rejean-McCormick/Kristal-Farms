@@ -2,7 +2,7 @@
 
 Kristal Farms is a northern energy-and-compute infrastructure project built around a simple inversion:
 
-> **Bring flexible compute to remote renewable energy and export digital value by fibre instead of defaulting to long roads and long high-voltage export corridors.**
+> **Bring flexible compute to remote renewable energy, protect community demand, and export value either as transportable Kristals or as connected services over fibre where required.**
 
 The project focuses on northern Québec and Labrador, where hydro resources, marine logistics, community infrastructure and telecommunications can be evaluated as one system.
 
@@ -10,15 +10,15 @@ The project focuses on northern Québec and Labrador, where hydro resources, mar
 
 Kristal Farms combines seven infrastructure and governance layers:
 
-1. **Remote renewable generation** — primarily hydro where technically, environmentally and socially justified.
+1. **Remote renewable generation** — wind-capable Kristal Wink cells as a proposed initial scale, with hydro/other generation where technically, environmentally and socially justified.
 2. **Protected community interface** — community and critical loads have priority over flexible compute.
 3. **Serviced compute sites** — power, cooling interface, fibre handoff, physical security, metering and logistics; tenants may bring and control their own hardware and software.
-4. **Digital export by fibre** — move computation and data products rather than defaulting to long-distance electrical export.
+4. **Value export by workload** — portable, offline-produced Kristals (opportunistic digital or protected physical delivery) or fibre for connected workloads with capacity/latency/SLA requirements.
 5. **Responsible international tenancy** — screen jurisdictions, legal counterparties, beneficial ownership/control and sanctions/trade exposure before access; the current owner policy excludes United States-based or United States-controlled counterparties from tenant/anchor-offtaker/tenant-operator roles.
 6. **Content-blind tenant environments** — tenants control private compute and cryptographic keys; Kristal Farms operates shared physical services without routine inspection of private models, datasets or application content.
 7. **International distributed resilience** — diversify eligible tenants, jurisdictions, telecom paths and site dependencies while treating any diplomatic/security benefit as a hypothesis rather than a defence guarantee.
 
-The current site doctrine emphasizes **new renewable generation consumed locally + practical marine access + high-capacity standard telecom + comparatively low ecological sensitivity**. Existing dams may support construction where appropriate but are not the long-term commercial resource thesis.
+For connected compute, the earlier site doctrine emphasized **new renewable generation consumed locally + practical marine access + high-capacity standard telecom + comparatively low ecological sensitivity**. The new **Kristal Wink** option tests wind-only, offline-first knowledge crystallization without treating continuous fibre as a prerequisite. Existing dams may support construction where appropriate but are not the long-term commercial resource thesis.
 
 Marine access, local roads, heat reuse, storage and short electrical interties remain site-specific components; no individual port, fibre route or hydro project is established merely by this doctrine.
 
@@ -141,3 +141,10 @@ After repository files change, double-click `REBUILD_OBSERVATORY.pyw`. It is the
 
 Use `START_OBSERVATORY.bat` only for a quick start when repository files have not changed. Specialist diagnostics, Sentinel/watershed acquisition and PMTiles helpers live under `tools/`; see [`tools/README.md`](tools/README.md).
 
+## Kristal Wink / offline-first direction (2026-10-12)
+
+- [Kristal Wink reference architecture (FR)](docs/10-core/KRISTAL_WINK_ARCHITECTURE_FR.md)
+- [Kristals hors ligne et opératoires (FR)](docs/10-core/KRISTALS_OFFLINE_ET_PROCEDURES_FR.md)
+- [Gouvernance collective et Assemblée des fondateurs (FR)](docs/00-control/KRISTAL_GOUVERNANCE_COLLECTIVE_FR.md)
+
+A single proposed **Kristal Wink** combines one wind turbine, flexible/hibernating AI, durable Kristal storage and a small reserve for protection/safe shutdown. Multiple nodes may interconnect but the first does not require a permanent high-capacity fibre line for deferred output. **Essential community power always takes priority**; a wind-only Wink cannot promise firm village supply. Profitability before fibre is a testable goal, not a proven result. Existing serviced-compute tenancy, data authority, site-screening and confidentiality rules remain applicable to their respective profiles.

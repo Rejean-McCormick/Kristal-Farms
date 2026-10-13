@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-12 — Kristal Wink and offline-first crystallization (owner-direction documentation update)
+
+- Added **Kristal Wink** as a proposed first-scale one-wind-turbine cell with power-following, checkpointable/hibernating AI and protected community load priority; integrated tower hardware is only a design option.
+- Distinguished **portable Kristals** transported digitally or by protected physical media from **connected serviced compute** that continues to require fibre under its own service profile.
+- Added reference notes for operational Kristals, local multimodal inputs, opt-in and uncertain voice-affect inference, integrity/provenance, offline transport and validation boundaries.
+- Documented possible collective governance with an **Assemblée des fondateurs**, without presuming legal charter, Indigenous/community consent, profit sharing or local energy autonomy.
+- Recorded open decisions, evidence gates and a *proposed* ADR; no applications, contracts or source data were altered and pre-fibre profitability remains unproven.
+
 ## 2026-09-01 — Information architecture consolidation
 
 - Removed the overlapping `docs/60-application-data/` bucket and relocated active contracts into `docs/data/`, `docs/product/` and `docs/scenarios/`.

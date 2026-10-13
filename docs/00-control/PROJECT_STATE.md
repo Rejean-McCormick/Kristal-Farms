@@ -1,15 +1,15 @@
 # Project State
 
-**As of:** 2026-08-31  
+**Evidence baseline:** 2026-08-31; **owner-direction overlay:** 2026-10-12  
 **Status:** Active research and development baseline. This document is not an engineering approval, environmental conclusion, community authorization, market forecast or investment decision.
 
 ## Core project thesis
 
-Kristal Farms is a northern hydro/renewable resource-access architecture. The primary design question is whether some remote energy resources can be developed more effectively by bringing flexible compute to the energy and exporting digital value by fibre, rather than defaulting to long roads and long high-voltage electrical export corridors.
+Kristal Farms is a northern hydro/renewable resource-access architecture. The primary design question is whether some remote energy resources can be developed more effectively by bringing flexible compute to the energy and exporting either **transportable Kristals** or **fibre-connected digital services**, rather than defaulting to long roads and long high-voltage electrical export corridors.
 
 The architecture under study is:
 
-> **new remote generation → protected community interface → flexible local compute → fibre export**
+> **local renewable generation → protected community priority → interruptible compute → transportable Kristals or fibre services as required**
 
 Community and critical loads have priority over interruptible compute.
 
@@ -103,3 +103,13 @@ The repository does not yet establish:
 ## Development mode
 
 The next unit of work is the **corridor/site dossier**. Each dossier replaces broad research proxies with project-specific evidence across hydrology, terrain, engineering, environment, rights/governance, logistics, telecom, electrical architecture and economics.
+
+## New owner-directed concept profile — 2026-10-12
+
+A proposed single-turbine **Kristal Wink** may work intermittently with wind-adaptive AI, durable Kristal storage, minimal safety reserve and local/offline interfaces. More Winks may be linked optionally. During village peak demand/severe cold or low wind, compute yields/hibernates; separate certified control and backup requirements remain necessary for essential power. Kristals may ship by opportunistic links or authenticated/encrypted physical media. Connected tenancy remains a separate offering requiring appropriate telecom.
+
+An Assemblée des fondateurs and collective local governance are proposed as an anti-capture structure, **not** a legal charter or substitute for local rights/consent. Kristals as executable/operational procedures and local multimodal assistants remain research directions requiring safety, provenance, privacy and validity tests.
+
+**Not established additionally:** Wink turbine site/design, actual wind-energy yield, integrated tower electronics, safe battery capacity, critical village autonomy, working Kristal shipment/operational protocol, purchasers, profit before fibre, adopted founders charter, or community agreement. Existing hydro-specific atlas and break-even results have **not been recomputed** for wind-only/offline delivery.
+
+See [Kristal Wink](../10-core/KRISTAL_WINK_ARCHITECTURE_FR.md), [Kristals offline](../10-core/KRISTALS_OFFLINE_ET_PROCEDURES_FR.md) and [collective governance](KRISTAL_GOUVERNANCE_COLLECTIVE_FR.md).

@@ -17,7 +17,7 @@ Success means a non-specialist can understand:
 - why remote renewable generation is central;
 - why community demand is protected;
 - why flexible compute can absorb locally generated electricity;
-- why fibre is the principal value-export corridor;
+- how portable/offline Kristal delivery and connected/fibre service profiles differ;
 - which elements are demonstrated versus hypothetical.
 
 ### Explorer
@@ -35,3 +35,7 @@ Scenario results must be reproducible and explicitly separated from observed dat
 ## Design principle
 
 **The wow should come from making the system understandable.** Terrain, animation, 3D, and visual effects are useful when they clarify infrastructure relationships or scale. Decorative complexity that obscures evidence is a failure.
+
+## New narrative layer (2026-10-12)
+
+The public product should distinguish **proposed Kristal Wink** (a single wind turbine with energy-responsive/hibernating compute, local durable Kristals and a small safety reserve) from larger connected serviced-pad scenarios. Visualizations must not imply certified turbine-tower hardware integration, community firm-power coverage, pre-fibre profitability or implemented operational Kristal protocols. Model workloads' dependence on network explicitly and keep evidence/assumption status visible. See [Wink architecture](../10-core/KRISTAL_WINK_ARCHITECTURE_FR.md).

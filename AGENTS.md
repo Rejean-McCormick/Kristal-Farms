@@ -4,7 +4,7 @@ This file is a high-priority implementation contract for any AI agent modifying 
 
 ## Product intent
 
-Kristal Farms is a physical northern energy/compute/fibre infrastructure project supported by an evidence-driven geospatial application. The Showcase, Explorer and Scenario Studio share the same governed data model; the software exists to explain, evaluate and develop Kristal Farms rather than becoming a separate product identity.
+Kristal Farms is a physical northern renewable-energy/flexible-compute project supporting both portable offline-first Kristal production (proposed Wink cells) and fibre-connected tenancy, backed by an evidence-driven geospatial application. The Showcase, Explorer and Scenario Studio share the same governed data model; the software exists to explain, evaluate and develop Kristal Farms rather than becoming a separate product identity.
 
 ## Non-negotiable architecture rules
 
@@ -66,3 +66,13 @@ AI-generated implementation is acceptable, but generated code must obey the same
 Treat `archive/` as historical provenance, not active implementation context. Do not search, summarize or copy architecture from `archive/` unless the task explicitly asks for history, migration provenance or superseded behavior. The root `.ignore` excludes `archive/` from common local search/index tools by default.
 
 When documentation location is ambiguous, use the two-axis model in `docs/architecture/information-architecture.md`: numbered folders are project/domain authority and research maturity; responsibility folders (`architecture`, `data`, `product`, `frontend`, `api`, `scenarios`, etc.) are software/data-platform documentation.
+
+## Additional owner direction (2026-10-12)
+
+- A single-turbine **Kristal Wink** is a *proposed* autonomous, energy-responsive cell; never infer firm village power, installed capabilities or pre-fibre profitability from the concept.
+- New workloads may produce portable Kristals without high-capacity fibre, while traditional interactive tenants still require their own validated telecom service profile.
+- Keep compute **interruptible** and community-critical loads protected with power-control safety independent of generative AI; do not simulate wind nameplate as continuous available compute power.
+- Keep founders' assembly / collective-governance proposals separate from established legal rights and approved agreements; do not imply Indigenous/community consent.
+- Before introducing any operational Kristal protocol, align with existing Kristal v10 contracts and record compatibility/testing decisions; do not claim implementation from narrative documentation.
+
+See `docs/10-core/KRISTAL_WINK_ARCHITECTURE_FR.md` and ADR-0024 (proposed).

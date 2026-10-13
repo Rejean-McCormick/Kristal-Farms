@@ -4,7 +4,7 @@
 
 Kristal Farms proposes a different way to access remote northern renewable resources:
 
-> **bring flexible compute to the energy, consume the electricity locally, and export digital value by fibre.**
+> **bring flexible compute to the energy, protect essential community demand, and export portable Kristals or fibre-connected services according to workload.**
 
 ## Why this matters
 
@@ -17,7 +17,7 @@ A node combines:
 - new renewable generation;
 - a protected community interface where relevant;
 - serviced compute sites;
-- fibre connectivity;
+- fibre connectivity **when needed by a workload**, or secure deferred delivery of portable Kristals;
 - marine/ground logistics;
 - optional heat recovery and storage where justified.
 
@@ -46,3 +46,9 @@ Community/critical loads have priority over flexible compute. No site is assumed
 ## Long-term capability
 
 If the architecture works repeatedly, northern construction, operations, fibre, cold-climate compute and remote-energy expertise become a reusable capability. Education, research and new community infrastructure may grow around successful nodes, but they are not prerequisites for proving the first energy/compute architecture.
+
+## Kristal Wink / offline-first direction (2026-10-12)
+
+A proposed one-turbine **Kristal Wink** could run interruptible AI with local storage and a small safety reserve, slowing with the wind and hibernating when essential community demand takes priority. Kristals may be delivered later by opportunistic connectivity or encrypted physical media; connected tenants still require their validated bandwidth/latency/SLA. Local operational Kristals and multimodal interfaces remain research directions, with opt-in, uncertain voice-affect cues only.
+
+Collective governance and a founders' assembly charter are proposals subject to real community rights/consent and legal design. Pre-fibre profitability, whole-village firm power and electronics/battery integration into a turbine tower are **not proven**. See `docs/10-core/KRISTAL_WINK_ARCHITECTURE_FR.md`.

@@ -27,7 +27,8 @@ TEXT_SUFFIXES = {".md", ".yml", ".yaml", ".json", ".jsonl", ".csv", ".py", ".sql
 FORBIDDEN_ACTIVE_PATTERNS = {
     "internal pass numbering": re.compile(r"\bpasses?\s*[-_ ]?\d+\b|\bpass\d+\b", re.I),
     "retired product name": re.compile(r"Kristal[ _-]?Platform|Kristal Geospatial Platform|platform-native", re.I),
-    "separate Kristals project": re.compile(r"\bKristals\b|\bKristALL\b", re.I),
+    # Kristals now names portable knowledge artifacts; ban only the retired standalone product identity.
+    "separate Kristals project": re.compile(r"\bKristALL\b|\bKristals\s+(?:project|platform|application|app|repository|repo)\b", re.I),
     "superseded siting rule": re.compile(r"\bNain[- ]first\b|\bheat[- ]first\b|\bvillage[- ]first\b", re.I),
 }
 

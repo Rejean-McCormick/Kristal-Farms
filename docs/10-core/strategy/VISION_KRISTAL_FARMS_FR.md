@@ -4,7 +4,7 @@
 
 Kristal Farms propose une autre manière d'accéder aux ressources renouvelables nordiques éloignées :
 
-> **amener une charge de calcul flexible à l'énergie, consommer l'électricité localement et exporter la valeur numérique par fibre.**
+> **amener une charge de calcul flexible à l'énergie, protéger les besoins communautaires et exporter la valeur en Kristals transportables ou par fibre lorsque le service l'exige.**
 
 ## Pourquoi cette inversion compte
 
@@ -17,7 +17,7 @@ Un nœud combine :
 - nouvelle production renouvelable;
 - interface communautaire protégée lorsque pertinente;
 - sites de calcul viabilisés;
-- connectivité fibre;
+- connectivité fibre **pour les charges qui en ont besoin**, ou transport sécurisé différé des Kristals;
 - logistique maritime/terrestre;
 - récupération de chaleur et stockage lorsque justifiés.
 
@@ -46,3 +46,11 @@ Les charges communautaires/critiques ont priorité sur le calcul flexible. Aucun
 ## Capacité à long terme
 
 Si l'architecture fonctionne de manière répétée, l'expertise nordique en construction, exploitation, fibre, calcul en climat froid et énergie éloignée devient une capacité réutilisable. L'éducation, la recherche et de nouvelles infrastructures communautaires peuvent se développer autour de nœuds réussis, sans être des prérequis pour démontrer la première architecture énergie/calcul.
+
+## Nouvelle direction — Kristal Wink (2026-10-12)
+
+Le **Kristal Wink** étudie un départ avec une seule éolienne, un calcul qui suit le vent, hiberne lorsque l'énergie manque ou que le village a priorité, un stockage de Kristals et une petite réserve pour l'arrêt sûr. La fibre permanente n'est pas une dépendance universelle : les Kristals peuvent être livrés plus tard par transfert opportuniste ou média chiffré, même par avion ou bateau, alors que les services locatifs connectés gardent leurs besoins de fibre.
+
+Les Kristals peuvent évoluer vers des processus stabilisés/exécutables localement, à condition d'une validation des preuves, des permissions et des limites. Interfaces texte, voix respectant les accents, photos et sons sont des perspectives de recherche; l'inférence d'émotions vocales est facultative et incertaine, locale et non persistante par défaut.
+
+Une Assemblée des fondateurs pourrait établir un cadre commun anti-capture pour des fermes en gouvernance collective, **sans supprimer les droits ou décisions des communautés**. Ni la rentabilité avant fibre, ni la sécurité d'un équipement intégré dans la tour, ni une autonomie énergétique intégrale du village ne sont établies. Voir `docs/10-core/KRISTAL_WINK_ARCHITECTURE_FR.md`.

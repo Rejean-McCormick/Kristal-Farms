@@ -79,3 +79,17 @@ Any project dossier must validate rights-holder/community process, decision righ
 | International tenant diversity materially improves continuity and recovery | Concentration analysis, contractual continuity obligations, multi-carrier/multi-port/site topology, insurer/lender treatment and incident/recovery planning. |
 | A coastal site has “low biodiversity” or low ecological impact | Site-specific habitat/species data, protected-area review, seasonal surveys where required, cumulative-effects analysis and rights/governance/environmental assessment. Use “comparatively low ecological sensitivity” only as a screening hypothesis until validated. |
 | Local generation plus compute has a lower footprint than electrical export | Equal-scope lifecycle comparison including reservoirs, civil works, marine works, fibre, roads, lines, materials, habitat, water and restoration. |
+
+## Kristal Wink and portable intelligence claims (2026-10-12)
+
+| Claim / assumption | Required evidence |
+|---|---|
+| A one-turbine Wink is viable without continuous high-capacity fibre | Measured production and energy availability, offline model/data dependencies, secure delivery, operating cost, buyer requirements and sale evidence. |
+| Wind-only generation plus small batteries ensures village power during long winter calms | **Not assumed.** Prove a separate firm-energy/backup design and protection; small reserves may suffice only for safe computing shutdown. |
+| Curtailment during extreme cold protects community loads | Document the electrical interface, priority rules, certified independent protective controls, test cases and local rights-holder approvals. |
+| Turbine tower can safely contain compute and batteries | Manufacturer approval; structural, fire, temperature, ice, vibration, ventilation, electrical-code and maintenance assessments. |
+| Offline Kristals are secure and usable | Validated protocol/version interoperability, manifest/signature checks, encryption and key management, provenance, partial-delivery handling, offline tests and customer acceptance. |
+| Kristals can execute stable processes cheaply and reliably | Verified process scope, outputs, safety controls, benchmark energy/latency vs local models, drift and rollback tests. |
+| Voice tone accurately reveals someone’s current mental/emotional state | **Not assumed.** Test uncertainty across accents, contexts and languages; explicit opt-in, no persistent profiling by default, privacy impact review and ability to decline/correct. |
+| Founders' assembly / community benefit sharing is legitimate and prevents capture | Signed charter/legal structure, rights-holder/community consent, governance participation, conflicts and concentration protections, independent audit and enforceable remedies. |
+| Revenue from Kristals finances village energy/fibre and yields profit before fibre | Real customer willingness to pay and contracts, full CAPEX/OPEX/transport/QA, seasonal resource model, audited revenue sharing and scenario sensitivity. |

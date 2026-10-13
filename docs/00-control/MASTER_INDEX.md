@@ -3,6 +3,7 @@
 ## Project control
 
 - [Project State](PROJECT_STATE.md)
+- [Collective governance and Founders Assembly — FR](KRISTAL_GOUVERNANCE_COLLECTIVE_FR.md)
 - [Strategic Principles](STRATEGIC_PRINCIPLES.md)
 - [Document Authority](DOCUMENT_AUTHORITY.md)
 - [Scope Boundaries](SCOPE_BOUNDARIES.md)
@@ -15,6 +16,8 @@
 
 ## Project reference architecture
 
+- [Kristal Wink reference architecture — FR](../10-core/KRISTAL_WINK_ARCHITECTURE_FR.md)
+- [Offline Kristals and operational processes — FR](../10-core/KRISTALS_OFFLINE_ET_PROCEDURES_FR.md)
 - [Kristal Farms Project Reference Architecture — EN](../10-core/Kristal_Farms_Project_Reference_Architecture_EN.md)
 - [Architecture de référence du projet Kristal Farms — FR](../10-core/Architecture_de_reference_du_projet_Kristal_Farms_FR.md)
 - [Kristal Farms Vision — EN](../10-core/strategy/KRISTAL_FARMS_VISION_EN.md)

@@ -5,7 +5,7 @@
 
 ## In scope
 
-Kristal Farms develops and evaluates a northern infrastructure architecture built around new or suitable renewable generation, protected community energy interfaces, flexible compute, fibre connectivity and practical marine/land logistics.
+Kristal Farms develops and evaluates a northern infrastructure architecture built around new or suitable renewable generation, protected community energy interfaces, flexible compute, **portable Kristals or connected fibre services**, and practical marine/land logistics.
 
 The repository may study:
 
@@ -54,3 +54,7 @@ Kristal Farms may adopt project-specific commercial exclusions that are stricter
 The project screens **counterparties before access**. It does not make routine inspection or decryption of tenant application content a condition of tenancy. Technology-origin restrictions are a separate policy question and must not be inferred from counterparty exclusions.
 
 See [Responsible International Tenancy and Counterparty Governance](INTERNATIONAL_TENANT_GOVERNANCE.md).
+
+## 2026-10-12 exploratory scope addition
+
+The scope now includes proposed wind-first **Kristal Wink** cells, weather-responsive hibernating compute, small operational/safety battery reserves, offline-first Kristal crystallization and secure asynchronous delivery, multimodal local interfaces, validated operational Kristals, and a possible founding-assembly/collective-governance charter. A single turbine without continuous fibre is a valid study profile; it does not guarantee firm village supply, no communications, pre-fibre profitability, legal consent, safe tower integration or deployable Kristal v10 protocols. The existing connected pad/tenant offering remains in scope where applicable.

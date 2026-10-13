@@ -7,13 +7,16 @@ This documentation covers the **Kristal Farms infrastructure project** and the a
 ### Project
 
 1. [Project state](00-control/PROJECT_STATE.md)
-2. [Strategic principles](00-control/STRATEGIC_PRINCIPLES.md)
-3. [Project reference architecture — English](10-core/Kristal_Farms_Project_Reference_Architecture_EN.md) or [architecture de référence du projet — français](10-core/Architecture_de_reference_du_projet_Kristal_Farms_FR.md)
-4. [Deployment strategy — English](10-core/deployment/DEPLOYMENT_STRATEGY_EN.md) or [stratégie de déploiement — français](10-core/deployment/STRATEGIE_DE_DEPLOIEMENT_FR.md)
-5. [Corridor dossier strategy](00-control/CORRIDOR_DOSSIER_STRATEGY.md)
-6. [Responsible international tenant governance](00-control/INTERNATIONAL_TENANT_GOVERNANCE.md)
-7. [Plan de mobilisation internationale — français](10-core/strategy/PLAN_MOBILISATION_INTERNATIONALE_KRISTAL_FARMS_FR.md)
-8. [Tenant-controlled encrypted environment — English](10-core/tenancy/BLACK_BOX_TENANCY_MODEL_EN.md) or [environnement chiffré sous contrôle du locataire — français](10-core/tenancy/MODELE_LOCATION_BLACK_BOX_FR.md)
+2. [Kristal Wink / éolienne autonome — FR](10-core/KRISTAL_WINK_ARCHITECTURE_FR.md)
+3. [Kristals opératoires et hors ligne — FR](10-core/KRISTALS_OFFLINE_ET_PROCEDURES_FR.md)
+4. [Gouvernance collective et Assemblée des fondateurs — FR](00-control/KRISTAL_GOUVERNANCE_COLLECTIVE_FR.md)
+5. [Strategic principles](00-control/STRATEGIC_PRINCIPLES.md)
+6. [Project reference architecture — English](10-core/Kristal_Farms_Project_Reference_Architecture_EN.md) or [architecture de référence du projet — français](10-core/Architecture_de_reference_du_projet_Kristal_Farms_FR.md)
+7. [Deployment strategy — English](10-core/deployment/DEPLOYMENT_STRATEGY_EN.md) or [stratégie de déploiement — français](10-core/deployment/STRATEGIE_DE_DEPLOIEMENT_FR.md)
+8. [Corridor dossier strategy](00-control/CORRIDOR_DOSSIER_STRATEGY.md)
+9. [Responsible international tenant governance](00-control/INTERNATIONAL_TENANT_GOVERNANCE.md)
+10. [Plan de mobilisation internationale — français](10-core/strategy/PLAN_MOBILISATION_INTERNATIONALE_KRISTAL_FARMS_FR.md)
+11. [Tenant-controlled encrypted environment — English](10-core/tenancy/BLACK_BOX_TENANCY_MODEL_EN.md) or [environnement chiffré sous contrôle du locataire — français](10-core/tenancy/MODELE_LOCATION_BLACK_BOX_FR.md)
 
 ### Application and data
 
@@ -70,3 +73,7 @@ The `contracts/` directory contains schemas and policy files intended to be cons
 ## Long-horizon material
 
 Optional human-infrastructure, learning and education concepts are isolated under [Long-Horizon Concepts](70-long-horizon/README.md). They are not prerequisites or commitments for the first energy/compute deployment.
+
+## Owner-directed concept update (2026-10-12)
+
+The **offline-first Kristal Wink** option is documented above and in [proposed ADR-0024](adr/0024-offline-first-kristal-wink-direction.md). Connected fibre tenancy remains supported, but continuous high-capacity fibre is no longer a universal dependency in the project vision. Earlier site economics and evidence claims were not recalculated for this new scenario.
