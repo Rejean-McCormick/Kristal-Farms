@@ -1,10 +1,8 @@
 ZmartZnap snapshot file index
-Files included: 497
+Files included: 504
 
 .gitattributes
 .github/CODEOWNERS
-.github/copilot-instructions.md
-.github/dependabot.yml
 .github/ISSUE_TEMPLATE/bug.yml
 .github/ISSUE_TEMPLATE/config.yml
 .github/ISSUE_TEMPLATE/data-quality.yml
@@ -15,13 +13,32 @@ Files included: 497
 .github/ISSUE_TEMPLATE/workstream.yml
 .github/PULL_REQUEST_TEMPLATE.md
 .github/PULL_REQUEST_TEMPLATE/research.md
+.github/copilot-instructions.md
+.github/dependabot.yml
 .github/workflows/ci.yml
 .github/workflows/docs.yml
 .gitignore
 .ignore
 .smartignore
 AGENTS.md
+CHANGELOG.md
+CONTRIBUTING.md
+GITHUB_SETUP.md
+GOVERNANCE.md
+LICENSING.md
+Launch_MULTiSmartDump.lnk
+ORCHESTRATION.md
+README.md
+REBUILD_OBSERVATORY.pyw
+RELEASE_MANIFEST.json
+SECURITY.md
+START_OBSERVATORY.bat
+SUPPORT.md
+WINDOWS_EXTRACTION.txt
+WINDOWS_RENAMED_PATHS.tsv
+ZmartZnap.pyw
 apps/web/.env.example
+apps/web/README.md
 apps/web/app/api/explorer/bootstrap/route.ts
 apps/web/app/api/explorer/entity/[id]/route.ts
 apps/web/app/api/international/portfolio/route.ts
@@ -67,10 +84,8 @@ apps/web/public/data/watersheds/nhn_workunit_limits.geojson
 apps/web/public/grid/grid-reach.geojson
 apps/web/public/imagery/local-satellite.json
 apps/web/public/terrain/terrain-manifest.json
-apps/web/README.md
 apps/web/scripts/copy-maplibre-worker.mjs
 apps/web/tsconfig.json
-CHANGELOG.md
 contracts/api/kristal-farms-api.openapi.yaml
 contracts/ingestion/import-manifest.schema.json
 contracts/layers/layer-catalog.example.yaml
@@ -91,10 +106,10 @@ contracts/schemas/target-village-dossier.schema.json
 contracts/schemas/tenant-eligibility-record.schema.json
 contracts/story/showcase-story.example.yaml
 contracts/story/showcase-story.schema.json
-CONTRIBUTING.md
 data/catalog/DATA_CATALOG.md
 data/examples/hydrology/README.json
 data/examples/hydrology/synthetic_daily_flow_12y.jsonl
+data/fixtures/current/README.md
 data/fixtures/current/canonical_id_registry.csv
 data/fixtures/current/core_asset.jsonl
 data/fixtures/current/core_corridor.jsonl
@@ -104,7 +119,6 @@ data/fixtures/current/core_natural_feature.jsonl
 data/fixtures/current/core_place.jsonl
 data/fixtures/current/core_project.jsonl
 data/fixtures/current/hydat_source_manifest.json
-data/fixtures/current/README.md
 data/fixtures/current/research_economic_benchmark.jsonl
 data/fixtures/current/research_evidence.jsonl
 data/fixtures/current/research_evidence_relation.jsonl
@@ -161,10 +175,10 @@ data/publish/current/international_portfolio_public.json
 data/publish/current/kristal_hydro_screening_scope_public.json
 data/publish/current/release_manifest.json
 data/publish/current/target_villages_public.json
-data/publish/imagery/current/imagery_manifest.json
 data/publish/imagery/README.md
-data/raw/community_infrastructure_source_snapshot.csv
+data/publish/imagery/current/imagery_manifest.json
 data/raw/Kristal_Farms_Partner_Cost_Advantage.xlsx
+data/raw/community_infrastructure_source_snapshot.csv
 data/raw/kristal_farms_village_inventory.csv
 data/raw/labrador_hydro_google_mymaps_points_v1.csv
 data/raw/labrador_hydroelectric_potential.csv
@@ -194,6 +208,7 @@ docs/00-control/CORRIDOR_DOSSIER_STRATEGY.md
 docs/00-control/DECISIONS_REQUIRED.md
 docs/00-control/DOCUMENT_AUTHORITY.md
 docs/00-control/INTERNATIONAL_TENANT_GOVERNANCE.md
+docs/00-control/KRISTAL_GOUVERNANCE_COLLECTIVE_FR.md
 docs/00-control/MASTER_INDEX.md
 docs/00-control/PROJECT_STATE.md
 docs/00-control/QA_REPORT.md
@@ -203,9 +218,11 @@ docs/00-control/SOURCE_TRACEABILITY.md
 docs/00-control/STRATEGIC_PRINCIPLES.md
 docs/00-control/WORKSTREAMS.md
 docs/10-core/Architecture_de_reference_du_projet_Kristal_Farms_FR.md
+docs/10-core/KRISTALS_OFFLINE_ET_PROCEDURES_FR.md
+docs/10-core/KRISTAL_WINK_ARCHITECTURE_FR.md
+docs/10-core/Kristal_Farms_Project_Reference_Architecture_EN.md
 docs/10-core/deployment/DEPLOYMENT_STRATEGY_EN.md
 docs/10-core/deployment/STRATEGIE_DE_DEPLOIEMENT_FR.md
-docs/10-core/Kristal_Farms_Project_Reference_Architecture_EN.md
 docs/10-core/strategy/KRISTAL_FARMS_VISION_EN.md
 docs/10-core/strategy/PLAN_MOBILISATION_INTERNATIONALE_KRISTAL_FARMS_FR.md
 docs/10-core/strategy/VISION_KRISTAL_FARMS_FR.md
@@ -230,6 +247,7 @@ docs/50-research/governance/INTERNATIONAL_TENANT_SCREENING_REFERENCE_BASE.md
 docs/50-research/grid/COTE_NORD_GRID_REACH.md
 docs/50-research/grid/ELECTRICAL_PROJECTS.md
 docs/50-research/mines/NORTHERN_MINE_REUSE_INVENTORY.md
+docs/70-long-horizon/README.md
 docs/70-long-horizon/communities/HUMAN_INFRASTRUCTURE_VISION_EN.md
 docs/70-long-horizon/communities/VISION_INFRASTRUCTURE_HUMAINE_FR.md
 docs/70-long-horizon/education/EDUCATION_PROGRAM_GATES_EN.md
@@ -240,7 +258,6 @@ docs/70-long-horizon/governance/CADRE_DIGNITE_HUMAINE_FR.md
 docs/70-long-horizon/governance/HUMAN_DIGNITY_FRAMEWORK_EN.md
 docs/70-long-horizon/learning/INTERNATIONAL_LEARNING_VISION_EN.md
 docs/70-long-horizon/learning/VISION_APPRENTISSAGE_INTERNATIONAL_FR.md
-docs/70-long-horizon/README.md
 docs/adr/0000-template.md
 docs/adr/0001-maplibre-primary-renderer.md
 docs/adr/0002-postgis-source-of-truth.md
@@ -265,6 +282,7 @@ docs/adr/0020-one-monorepo-three-logical-systems.md
 docs/adr/0021-content-blind-tenant-environments.md
 docs/adr/0022-counterparty-screening-before-tenancy.md
 docs/adr/0023-offline-satellite-snapshots.md
+docs/adr/0024-offline-first-kristal-wink-direction.md
 docs/adr/README.md
 docs/api/authentication.md
 docs/api/errors.md
@@ -287,10 +305,10 @@ docs/architecture/workspace-boundaries.md
 docs/contributing/development-workflow.md
 docs/contributing/documentation.md
 docs/contributing/pull-requests.md
+docs/data/DATA_VALIDATION_PASS_2026-09-01.md
 docs/data/application-data-model.md
 docs/data/data-model.md
 docs/data/data-quality.md
-docs/data/DATA_VALIDATION_PASS_2026-09-01.md
 docs/data/economic-data-contract.md
 docs/data/evidence-matrix.md
 docs/data/evidence-model.md
@@ -319,13 +337,13 @@ docs/frontend/offline-satellite.md
 docs/frontend/state-and-permalinks.md
 docs/getting-started/local-development.md
 docs/index.md
+docs/operations/TENANT_DUE_DILIGENCE_RUNBOOK.md
 docs/operations/backup-restore.md
 docs/operations/data-release-runbook.md
 docs/operations/environments.md
 docs/operations/incident-response.md
 docs/operations/qgis-workflow.md
 docs/operations/release-runbook.md
-docs/operations/TENANT_DUE_DILIGENCE_RUNBOOK.md
 docs/product/explorer-data-contract.md
 docs/product/explorer.md
 docs/product/integrated-atlas.md
@@ -348,12 +366,7 @@ docs/security/threat-model.md
 docs/testing/data-tests.md
 docs/testing/testing-strategy.md
 docs/testing/visual-regression.md
-GITHUB_SETUP.md
-GOVERNANCE.md
-Launch_MULTiSmartDump.lnk
-LICENSING.md
 mkdocs.yml
-ORCHESTRATION.md
 packages/catalog/catalog.json
 packages/map-style/README.md
 packages/schemas/json/Entity.schema.json
@@ -369,8 +382,8 @@ pipelines/curate/sync_electrical_projects.py
 pipelines/curate/sync_enabling_corridors.py
 pipelines/economics/compare_architectures.py
 pipelines/economics/run_economic_frontier.py
-pipelines/imagery/build_local_satellite.py
 pipelines/imagery/README.md
+pipelines/imagery/build_local_satellite.py
 pipelines/ingest/hydro_geometry/common.py
 pipelines/ingest/hydro_geometry/compute_reach_terrain.py
 pipelines/ingest/hydro_geometry/fetch_canada1water_candidates.py
@@ -383,6 +396,7 @@ pipelines/ingest/hydrology/derive_hydrology_statistics.py
 pipelines/ingest/hydrology/fetch_geomet_hydat.py
 pipelines/ingest/hydrology/normalize_geomet_hydat.py
 pipelines/ingest/hydrology/run_hydrology_ingestion.py
+pipelines/publish/README.md
 pipelines/publish/build_community_infrastructure.py
 pipelines/publish/build_external_reference_energy_public.py
 pipelines/publish/build_grid_reach_public.py
@@ -390,9 +404,8 @@ pipelines/publish/build_international_portfolio_public.py
 pipelines/publish/build_kristal_hydro_scope.py
 pipelines/publish/build_observatory_public.py
 pipelines/publish/build_target_villages_public.py
-pipelines/publish/README.md
-pipelines/terrain/build_terrain_screening.py
 pipelines/terrain/README.md
+pipelines/terrain/build_terrain_screening.py
 pipelines/transform/README.md
 pipelines/validate/validate_domain_model.py
 pipelines/validate/validate_economics.py
@@ -400,12 +413,11 @@ pipelines/validate/validate_hydrology.py
 pipelines/validate/validate_integrated_atlas.py
 pipelines/validate/validate_public_references.py
 pytest.ini
-README.md
-REBUILD_OBSERVATORY.pyw
-RELEASE_MANIFEST.json
 requirements-dev.txt
+research/README.md
 research/commercial/international_portfolio_12.yaml
 research/communities/README.md
+research/communities/targets/README.md
 research/communities/targets/akulivik.yaml
 research/communities/targets/aupaluk.yaml
 research/communities/targets/hopedale.yaml
@@ -417,7 +429,6 @@ research/communities/targets/portfolio.yaml
 research/communities/targets/postville.yaml
 research/communities/targets/puvirnituq.yaml
 research/communities/targets/quaqtaq.yaml
-research/communities/targets/README.md
 research/communities/targets/rigolet.yaml
 research/communities/targets/salluit.yaml
 research/energy/README.md
@@ -428,52 +439,49 @@ research/grid/electrical_projects.yaml
 research/grid/electrical_sources.yaml
 research/hydrology/README.md
 research/infrastructure/enabling_corridors.yaml
-research/mines/northern_mine_reuse_inventory.csv
 research/mines/README.md
-research/README.md
-SECURITY.md
+research/mines/northern_mine_reuse_inventory.csv
 services/kristal-farms-api/README.md
 services/ogc-api/README.md
 services/tiles/README.md
 sources/external/grid/README.md
 sources/extracted/README.md
 sources/legacy/source-material/Documentation Kristal Farms.docx (2).md
-sources/legacy/source-material/exports/Kristal_Farms_Partner_Package_Consolidated_AI.txt
 sources/legacy/source-material/Kristal Farms #U00d4#U00c7#U00f6 Heat Recycling Plan (3).md
-sources/legacy/source-material/Kristal Farms (intro) #U00d4#U00c7#U00f6 Cost Advantage & Strategic Rationale (3).md
-sources/legacy/source-material/Potentiel hydro#U251c#U00aelectrique isol#U251c#U00ae au Nunavik et au Labrador (#U00d4#U00eb#U00d1#U00d4#U00c7#U00bb15#U00d4#U00c7#U00bbMW).docx (2).md
 sources/legacy/source-material/README.md
-sources/legacy/source-material/Suppl#U251c#U00aementaire/Comparable Projects #U00d4#U00c7#U00f6 AI Knowledge Systems & HydroContainer Data Centers.docx.md
-sources/legacy/source-material/Suppl#U251c#U00aementaire/Comprehensive Program Outline #U00d4#U00c7#U00f6 Hydropowered Containerized AI & Kristals (Canada).docx.md
-sources/legacy/source-material/Suppl#U251c#U00aementaire/Containerized Data Centers #U00d4#U00c7#U00f6 Vendor Landscape, Use Cases & Lessons.docx.md
-sources/legacy/source-material/Suppl#U251c#U00aementaire/Executive Brief #U00d4#U00c7#U00f6 Kristals & Hydropowered Modular AI Data Centers (Canada).docx.md
-sources/legacy/source-material/Suppl#U251c#U00aementaire/Government Proposal Outline #U00d4#U00c7#U00f6 Hydropowered Containerized Data Centers & Turbine-Water Cooling (Manicouagan).docx.md
-sources/legacy/source-material/Suppl#U251c#U00aementaire/Green AI Compute & Knowledge Platform #U00d4#U00c7#U00f6 Canada Strategy and Model.docx.md
-sources/legacy/source-material/Suppl#U251c#U00aementaire/Hydro-Backed Modular AI & Open Knowledge #U00d4#U00c7#U00f6 Global Program Brief.docx.md
-sources/legacy/source-material/Suppl#U251c#U00aementaire/Hydro-Powered Container Compute #U00d4#U00c7#U00f6 Global Collaboration & Competition Framework.docx.md
-sources/legacy/source-material/Suppl#U251c#U00aementaire/Modular AI Farms at Hydropower Sites #U00d4#U00c7#U00f6 Feasibility & Cooling System Design.docx.md
-sources/legacy/source-material/Suppl#U251c#U00aementaire/Northern Hydropower for Compute #U00d4#U00c7#U00f6 Opportunities, Cooling Advantage & Strategy.docx.md
-sources/legacy/source-material/Suppl#U251c#U00aementaire/Program Blueprint & Section Outline for a Green AI Compute Initiative.docx.md
-sources/legacy/source-material/Suppl#U251c#U00aementaire/Rapport d#U251c#U00aetaill#U251c#U00ae #U00d4#U00c7#U00f6 Infrastructure d#U00d4#U00c7#U00d6IA modulaire et biblioth#U251c#U00bfque de Kristals.docx.md
-sources/originals/new-2026-08-17/analysis/Couts_ligne_transmission_cote_ouest_Quebec.docx
-sources/originals/new-2026-08-17/analysis/Inventaire_preliminaire_des_rivieres_au_nord_de_Chisasibi_La_Grande_1.docx
-sources/originals/new-2026-08-17/analysis/Kristal_Farms_Economic_Cost_Advantage_and_Savings_Model.docx
-sources/originals/new-2026-08-17/analysis/Kristal_Farms_Gradual_and_Harmonious_Deployment_Plan.docx
-sources/originals/new-2026-08-17/analysis/Kristal_Farms_Northern_Village_Precipitation_Source_Data.docx
-sources/originals/new-2026-08-17/analysis/Kristal_Farms_Plan_de_deploiement_graduel_et_harmonieux.docx
-sources/originals/new-2026-08-17/analysis/Labrador_Rivers_and_Hydroelectric_Potential_Power_Estimates_and_Current_Status.docx
-sources/originals/new-2026-08-17/analysis/Rapport_Repartition_des_couts_d_une_ferme_de_serveurs_au_Canada_incluant_le_refroidissement.docx
-sources/originals/new-2026-08-17/analysis/Rivieres_du_littoral_ouest_du_Nord_quebecois_au_nord_de_La_Grande.docx
+sources/legacy/source-material/Supplements/ai_farms_hydro_feasibility.docx.md
+sources/legacy/source-material/Supplements/comparables_ai_hydrocontainers.docx.md
+sources/legacy/source-material/Supplements/datacenters_vendors_usages.docx.md
+sources/legacy/source-material/Supplements/executive_brief_kristals.docx.md
+sources/legacy/source-material/Supplements/government_proposal_manicouagan.docx.md
+sources/legacy/source-material/Supplements/green_ai_platform_canada.docx.md
+sources/legacy/source-material/Supplements/green_ai_program_blueprint.docx.md
+sources/legacy/source-material/Supplements/hydro_compute_global_cooperation.docx.md
+sources/legacy/source-material/Supplements/hydro_modular_open_knowledge.docx.md
+sources/legacy/source-material/Supplements/northern_hydro_compute.docx.md
+sources/legacy/source-material/Supplements/programme_ai_kristals_canada.docx.md
+sources/legacy/source-material/Supplements/rapport_ia_modulaire_kristals.docx.md
+sources/legacy/source-material/exports/Kristal_Farms_Partner_Package_Consolidated_AI.txt
+sources/legacy/source-material/kristal_farms_intro_cost_advantage_3.md
+sources/legacy/source-material/potentiel_hydro_nunavik_labrador_2.docx.md
 sources/originals/README.md
+sources/originals/new-2026-08-17/analysis/Couts_ligne_transmission_cote_ouest_Quebec.docx
+sources/originals/new-2026-08-17/analysis/economic_cost_savings_model.docx
+sources/originals/new-2026-08-17/analysis/gradual_deployment_plan_en.docx
+sources/originals/new-2026-08-17/analysis/inventaire_rivieres_nord_chisasibi.docx
+sources/originals/new-2026-08-17/analysis/labrador_hydro_potential.docx
+sources/originals/new-2026-08-17/analysis/plan_deploiement_graduel_fr.docx
+sources/originals/new-2026-08-17/analysis/rapport_couts_serveurs_refroidissement.docx
+sources/originals/new-2026-08-17/analysis/rivieres_littoral_nord_quebec.docx
+sources/originals/new-2026-08-17/analysis/village_precipitations_data.docx
 sources/owner-direction/2026-08-30-application-data-direction.md
 sources/owner-direction/2026-08-30-canonical-project-direction.md
 sources/owner-direction/2026-08-30-economic-comparison-direction.md
 sources/owner-direction/2026-08-30-hydro-resource-atlas-direction.md
 sources/owner-direction/2026-08-31-international-mobilization-direction.md
 sources/owner-direction/2026-08-31-proposed-jurisdiction-portfolio-update.md
+sources/owner-direction/2026-10-12-kristal-wink-offline-kristals-direction.md
 sources/user-provided/step_mine_ocean.md
-START_OBSERVATORY.bat
-SUPPORT.md
 tests/test_community_infrastructure_publish.py
 tests/test_domain_models.py
 tests/test_economics.py
@@ -490,13 +498,12 @@ tests/test_observatory_web.py
 tests/test_repository_hygiene.py
 tests/test_target_village_interface.py
 tests/test_workspace_boundaries.py
+tools/README.md
 tools/geospatial/FETCH_WATERSHEDS.pyw
 tools/imagery/FETCH_SENTINEL2.pyw
 tools/imagery/INSTALL_PMTILES.pyw
 tools/imagery/REGISTER_LOCAL_IMAGERY.ps1
 tools/imagery/START_IMAGERY_SERVER.ps1
 tools/observatory/DIAG_OBSERVATORY.pyw
-tools/README.md
-ZmartZnap.pyw
 
 Index file: SNAPSHOT_INDEX.txt

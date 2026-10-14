@@ -1,0 +1,14 @@
+KRISTAL FARMS / KRISTAL WINK - EXTRACTION WINDOWS
+
+Cette archive a ete preparee pour les chemins Windows courts.
+
+1. Creez C:\KF (ou C:\Kristal).
+2. Extrayez l'archive directement dans ce dossier.
+3. Consultez WINDOWS_RENAMED_PATHS.tsv pour retrouver les noms historiques.
+
+Les fichiers sources ont ete conserves; seuls certains chemins excessivement
+longs ont ete raccourcis. La documentation Kristal Wink est preservee.
+Le fichier SNAPSHOT_INDEX.txt a ete regenere pour refléter les chemins actuels.
+
+La longueur de chemin sous Windows depend aussi de l'emplacement choisi :
+un dossier d'extraction tres profond peut encore causer l'erreur 0x80010135.
